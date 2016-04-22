@@ -1,0 +1,74 @@
+html, body {
+    margin: auto;
+    height: 100%;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.menu-content {
+    border-bottom: solid 1px #BBB;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Menu */
+
+.menu {
+    min-width: 400px;
+}
+
+.profile-photo {
+    float: left;
+    height: 120px;
+    margin: 0px 10px 10px 0px;
+}
+
+.menu p {
+   margin: 0px;
+}
+
+.user-name {
+    font-size: 26pt;
+}
+
+.position {
+    font-size: 15pt;
+    color: #888;
+}
+
+/* Content */
+.content {
+    flex-grow: 3;
+    border-left: solid 1px #BBB;
+    min-height: 450px;
+}
+
+.skill-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-caption, .skill-cards {
+    margin-left: 20px;
+}
+
+.skill-card {
+    width: 170px;
+    margin-right: 10px;
+    border: solid 1px #999;
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+}
